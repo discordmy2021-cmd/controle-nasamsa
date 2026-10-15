@@ -1,8 +1,6 @@
 import React from 'react';
-import { App } from './App';
+import App from './App';
 
-export function MainRouter() {
+export default function MainRouter() {
   return <App />;
 }
-
-export default MainRouter;
