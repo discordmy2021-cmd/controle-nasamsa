@@ -205,3 +205,4 @@ function ProfileField({ label, value }: { label: string; value: string }) { retu
 function EmptyState({ text }: { text: string }) { return <div className="empty-state"><ClipboardList size={24} /><span>{text}</span></div>; }
 
 export { App as AdminApp };
+export default App;
